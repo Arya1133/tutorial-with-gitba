@@ -1,0 +1,25 @@
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .contactForm input,
+    .contactForm textarea {
+      width: 100%;
+    }
+  }
+  

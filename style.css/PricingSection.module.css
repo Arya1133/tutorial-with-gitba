@@ -1,0 +1,22 @@
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .pricingTable {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .pricingPlan {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .pricingPlan {
+      width: 100%;
+    }
+  }
+  

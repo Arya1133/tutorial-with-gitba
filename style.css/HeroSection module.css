@@ -1,0 +1,37 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .heroContent {
+    max-width: 800px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .primary {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .secondary {
+    background-color: transparent;
+    color: #0070f3;
+    padding: 10px 20px;
+    border: 1px solid #0070f3;
+    cursor: pointer;
+  }
+  
+  .primary:hover, .secondary:hover {
+    opacity: 0.8;
+  }
+  

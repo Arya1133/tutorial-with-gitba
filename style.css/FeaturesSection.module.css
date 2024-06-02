@@ -1,0 +1,22 @@
+.features {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .featureList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .featureItem {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .featureItem {
+      width: 100%;
+    }
+  }
+  
